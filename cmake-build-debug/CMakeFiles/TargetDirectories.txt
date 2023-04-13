@@ -1,0 +1,3 @@
+/Users/JurgenZellhuber/Library/CloudStorage/OneDrive-LaureateMexico/ARQ. Y PROG. DE COMPUTADORAS/HelloSFML/cmake-build-debug/CMakeFiles/HelloSFML.dir
+/Users/JurgenZellhuber/Library/CloudStorage/OneDrive-LaureateMexico/ARQ. Y PROG. DE COMPUTADORAS/HelloSFML/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/JurgenZellhuber/Library/CloudStorage/OneDrive-LaureateMexico/ARQ. Y PROG. DE COMPUTADORAS/HelloSFML/cmake-build-debug/CMakeFiles/rebuild_cache.dir
