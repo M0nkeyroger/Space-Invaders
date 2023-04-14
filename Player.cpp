@@ -14,6 +14,8 @@
 #include "Ufo.hpp"
 #include "Player.hpp"
 
+
+
 Player::Player() :
         explosion(EXPLOSION_ANIMATION_SPEED, BASE_SIZE, "/Users/JurgenZellhuber/OneDrive - Laureate Mexico/ARQ. Y PROG. DE COMPUTADORAS/HelloSFML/Resources/Images/Explosion.png")
 {
@@ -21,13 +23,14 @@ Player::Player() :
 
     bullet_texture.loadFromFile("/Users/JurgenZellhuber/OneDrive - Laureate Mexico/ARQ. Y PROG. DE COMPUTADORAS/HelloSFML/Resources/Images/PlayerBullet.png");
     texture.loadFromFile("/Users/JurgenZellhuber/OneDrive - Laureate Mexico/ARQ. Y PROG. DE COMPUTADORAS/HelloSFML/Resources/Images/Player.png");
-
     bullet_sprite.setTexture(bullet_texture);
     sprite.setTexture(texture);
+    shooting_sound_buffer.loadFromFile("/Users/JurgenZellhuber/OneDrive - Laureate Mexico/ARQ. Y PROG. DE COMPUTADORAS/HelloSFML/Resources/Music/laser.wav");
+    dying_sound_buffer.loadFromFile("/Users/JurgenZellhuber/OneDrive - Laureate Mexico/ARQ. Y PROG. DE COMPUTADORAS/HelloSFML/Resources/Music/explosion.wav");
+    shooting_sound.setBuffer(shooting_sound_buffer);
+    dying_sound.setBuffer(dying_sound_buffer);
 }
-//play explosion.wav when the player dies
 
-sf::SoundBuffer buffer;
 bool Player::get_dead() const
 {
     return dead;
@@ -57,18 +60,17 @@ void Player::die()
 {
     dead = 1;
 }
-
 void Player::draw(sf::RenderWindow& i_window)
 {
+
     if (0 == dead)
     {
+
         sprite.setPosition(x, y);
         sprite.setTextureRect(sf::IntRect(BASE_SIZE * current_power, 0, BASE_SIZE, BASE_SIZE));
-
         for (const Bullet& bullet : bullets)
         {
             bullet_sprite.setPosition(bullet.x, bullet.y);
-
             i_window.draw(bullet_sprite);
         }
 
@@ -79,10 +81,16 @@ void Player::draw(sf::RenderWindow& i_window)
 
             explosion.draw(x, y, i_window, sf::Color(0, 109, 255));
         }
+
     }
     else if (0 == dead_animation_over)
     {
         explosion.draw(x, y, i_window, sf::Color(255, 36, 0));
+        if (!dying_sound_played)
+        {
+            dying_sound.play();
+            dying_sound_played = true;
+        }
     }
 }
 
@@ -103,6 +111,7 @@ void Player::reset()
 
     explosion.reset();
 }
+
 
 void Player::update(std::mt19937_64& i_random_engine, std::vector<Bullet>& i_enemy_bullets, std::vector<Enemy>& i_enemies, Ufo& i_ufo)
 {
@@ -140,6 +149,7 @@ void Player::update(std::mt19937_64& i_random_engine, std::vector<Bullet>& i_ene
         {
             if (1 == sf::Keyboard::isKeyPressed(sf::Keyboard::Z))
             {
+                shooting_sound.play();
 
                 if (2 == current_power)
                 {
@@ -166,6 +176,7 @@ void Player::update(std::mt19937_64& i_random_engine, std::vector<Bullet>& i_ene
 
         for (Bullet& enemy_bullet : i_enemy_bullets)
         {
+
             if (1 == get_hitbox().intersects(enemy_bullet.get_hitbox()))
             {
                 if (1 == current_power)

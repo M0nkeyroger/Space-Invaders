@@ -2,6 +2,8 @@
 // Created by Jurgen Zellhuber on 13/04/23.
 //
 #pragma once
+#include "SFML/Audio.hpp"
+
 
 class Player
 {
@@ -9,6 +11,7 @@ class Player
     bool dead;
     bool dead_animation_over;
     bool shield_animation_over;
+    bool dying_sound_played=false;
 
     unsigned char current_power;
     unsigned char reload_timer;
@@ -24,8 +27,11 @@ class Player
 
     sf::Texture bullet_texture;
     sf::Texture texture;
-
     Animation explosion;
+
+    sf::SoundBuffer shooting_sound_buffer, dying_sound_buffer;
+    sf::Sound shooting_sound, dying_sound;
+
 public:
     Player();
 
@@ -43,6 +49,7 @@ public:
     void update(std::mt19937_64& i_random_engine, std::vector<Bullet>& i_enemy_bullets, std::vector<Enemy>& i_enemies, Ufo& i_ufo);
 
     sf::IntRect get_hitbox() const;
+
 };
 
 #ifndef HELLOSFML_PLAYER_HPP
