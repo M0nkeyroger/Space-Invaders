@@ -6,7 +6,7 @@
 # It is included in the main 'build.ninja'.
 
 # =============================================================================
-# Project: HelloSFML
+# Project: SpaceInvaders
 # Configurations: Debug
 # =============================================================================
 # =============================================================================
@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S"/Users/JurgenZellhuber/Library/CloudStorage/OneDrive-LaureateMexico/ARQ. Y PROG. DE COMPUTADORAS/HelloSFML" -B"/Users/JurgenZellhuber/Library/CloudStorage/OneDrive-LaureateMexico/ARQ. Y PROG. DE COMPUTADORAS/HelloSFML/cmake-build-debug"
+  command = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S"/Users/JurgenZellhuber/Library/CloudStorage/OneDrive-LaureateMexico/ARQ. Y PROG. DE COMPUTADORAS/Space Invaders" -B"/Users/JurgenZellhuber/Library/CloudStorage/OneDrive-LaureateMexico/ARQ. Y PROG. DE COMPUTADORAS/Space Invaders/cmake-build-debug"
   description = Re-running CMake...
   generator = 1
 

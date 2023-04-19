@@ -1,5 +1,5 @@
 //
-// Created by Jurgen Zellhuber on 13/04/23.
+// Created by Jurgen Zellhuber.
 //
 #include <SFML/Graphics.hpp>
 

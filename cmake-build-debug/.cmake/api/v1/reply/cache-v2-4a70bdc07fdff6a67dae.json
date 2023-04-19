@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/JurgenZellhuber/Library/CloudStorage/OneDrive-LaureateMexico/ARQ. Y PROG. DE COMPUTADORAS/HelloSFML/cmake-build-debug"
+			"value" : "/Users/JurgenZellhuber/Library/CloudStorage/OneDrive-LaureateMexico/ARQ. Y PROG. DE COMPUTADORAS/Space Invaders/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -479,7 +479,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/JurgenZellhuber/Library/CloudStorage/OneDrive-LaureateMexico/ARQ. Y PROG. DE COMPUTADORAS/HelloSFML/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/Users/JurgenZellhuber/Library/CloudStorage/OneDrive-LaureateMexico/ARQ. Y PROG. DE COMPUTADORAS/Space Invaders/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -539,7 +539,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/JurgenZellhuber/Library/CloudStorage/OneDrive-LaureateMexico/ARQ. Y PROG. DE COMPUTADORAS/HelloSFML"
+			"value" : "/Users/JurgenZellhuber/Library/CloudStorage/OneDrive-LaureateMexico/ARQ. Y PROG. DE COMPUTADORAS/Space Invaders"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",
@@ -819,7 +819,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "HelloSFML"
+			"value" : "SpaceInvaders"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1111,7 +1111,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/JurgenZellhuber/Library/CloudStorage/OneDrive-LaureateMexico/ARQ. Y PROG. DE COMPUTADORAS/HelloSFML/cmake-build-debug"
+			"value" : "/Users/JurgenZellhuber/Library/CloudStorage/OneDrive-LaureateMexico/ARQ. Y PROG. DE COMPUTADORAS/Space Invaders/cmake-build-debug"
 		},
 		{
 			"name" : "HelloSFML_IS_TOP_LEVEL",
@@ -1135,7 +1135,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/JurgenZellhuber/Library/CloudStorage/OneDrive-LaureateMexico/ARQ. Y PROG. DE COMPUTADORAS/HelloSFML"
+			"value" : "/Users/JurgenZellhuber/Library/CloudStorage/OneDrive-LaureateMexico/ARQ. Y PROG. DE COMPUTADORAS/Space Invaders"
 		},
 		{
 			"name" : "SFML_DIR",
@@ -1160,6 +1160,78 @@
 			],
 			"type" : "PATH",
 			"value" : "SFML_DOC_DIR-NOTFOUND"
+		},
+		{
+			"name" : "SpaceInvaders_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/JurgenZellhuber/Library/CloudStorage/OneDrive-LaureateMexico/ARQ. Y PROG. DE COMPUTADORAS/Space Invaders/cmake-build-debug"
+		},
+		{
+			"name" : "SpaceInvaders_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "SpaceInvaders_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/JurgenZellhuber/Library/CloudStorage/OneDrive-LaureateMexico/ARQ. Y PROG. DE COMPUTADORAS/Space Invaders"
+		},
+		{
+			"name" : "Space_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/JurgenZellhuber/Library/CloudStorage/OneDrive-LaureateMexico/ARQ. Y PROG. DE COMPUTADORAS/Space Invaders/cmake-build-debug"
+		},
+		{
+			"name" : "Space_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "Space_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/JurgenZellhuber/Library/CloudStorage/OneDrive-LaureateMexico/ARQ. Y PROG. DE COMPUTADORAS/Space Invaders"
 		}
 	],
 	"kind" : "cache",

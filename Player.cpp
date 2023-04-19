@@ -1,5 +1,5 @@
 //
-// Created by Jurgen Zellhuber on 13/04/23.
+// Created by Jurgen Zellhuber.
 //
 
 #include <array>
@@ -17,16 +17,16 @@
 
 
 Player::Player() :
-        explosion(EXPLOSION_ANIMATION_SPEED, BASE_SIZE, "/Users/JurgenZellhuber/OneDrive - Laureate Mexico/ARQ. Y PROG. DE COMPUTADORAS/HelloSFML/Resources/Images/Explosion.png")
+        explosion(EXPLOSION_ANIMATION_SPEED, BASE_SIZE, "/Users/JurgenZellhuber/OneDrive - Laureate Mexico/ARQ. Y PROG. DE COMPUTADORAS/Space Invaders/Resources/Images/Explosion.png")
 {
     reset();
 
-    bullet_texture.loadFromFile("/Users/JurgenZellhuber/OneDrive - Laureate Mexico/ARQ. Y PROG. DE COMPUTADORAS/HelloSFML/Resources/Images/PlayerBullet.png");
-    texture.loadFromFile("/Users/JurgenZellhuber/OneDrive - Laureate Mexico/ARQ. Y PROG. DE COMPUTADORAS/HelloSFML/Resources/Images/Player.png");
+    bullet_texture.loadFromFile("/Users/JurgenZellhuber/OneDrive - Laureate Mexico/ARQ. Y PROG. DE COMPUTADORAS/Space Invaders/Resources/Images/PlayerBullet.png");
+    texture.loadFromFile("/Users/JurgenZellhuber/OneDrive - Laureate Mexico/ARQ. Y PROG. DE COMPUTADORAS/Space Invaders/Resources/Images/Player.png");
     bullet_sprite.setTexture(bullet_texture);
     sprite.setTexture(texture);
-    shooting_sound_buffer.loadFromFile("/Users/JurgenZellhuber/OneDrive - Laureate Mexico/ARQ. Y PROG. DE COMPUTADORAS/HelloSFML/Resources/Music/laser.wav");
-    dying_sound_buffer.loadFromFile("/Users/JurgenZellhuber/OneDrive - Laureate Mexico/ARQ. Y PROG. DE COMPUTADORAS/HelloSFML/Resources/Music/explosion.wav");
+    shooting_sound_buffer.loadFromFile("/Users/JurgenZellhuber/OneDrive - Laureate Mexico/ARQ. Y PROG. DE COMPUTADORAS/Space Invaders/Resources/Music/laser.wav");
+    dying_sound_buffer.loadFromFile("/Users/JurgenZellhuber/OneDrive - Laureate Mexico/ARQ. Y PROG. DE COMPUTADORAS/Space Invaders/Resources/Music/explosion.wav");
     shooting_sound.setBuffer(shooting_sound_buffer);
     dying_sound.setBuffer(dying_sound_buffer);
 }
@@ -91,6 +91,7 @@ void Player::draw(sf::RenderWindow& i_window)
             dying_sound.play();
             dying_sound_played = true;
         }
+
     }
 }
 

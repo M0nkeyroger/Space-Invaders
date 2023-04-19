@@ -1,3 +1,4 @@
+// Created by Jurgen Zellhuber.
 #include <array>
 #include <chrono>
 #include <random>
@@ -38,7 +39,7 @@ int main()
     // Crear pantalla de inicio
     sf::RenderWindow start_window(sf::VideoMode(SCREEN_RESIZE * SCREEN_WIDTH, SCREEN_RESIZE * SCREEN_HEIGHT), "Space Invaders", sf::Style::Close);
     sf::Image icon_image;
-    icon_image.loadFromFile("/Users/JurgenZellhuber/OneDrive - Laureate Mexico/ARQ. Y PROG. DE COMPUTADORAS/HelloSFML/Resources/Images/icon.png");
+    icon_image.loadFromFile("/Users/JurgenZellhuber/OneDrive - Laureate Mexico/ARQ. Y PROG. DE COMPUTADORAS/Space Invaders/Resources/Images/icon.png");
 
     start_window.setIcon(icon_image.getSize().x, icon_image.getSize().y, icon_image.getPixelsPtr());
 
@@ -46,13 +47,13 @@ int main()
 
     //Cargar texturas background
     sf::Texture start_texture;
-    start_texture.loadFromFile("/Users/JurgenZellhuber/OneDrive - Laureate Mexico/ARQ. Y PROG. DE COMPUTADORAS/HelloSFML/Resources/Images/StartScreen.png");
+    start_texture.loadFromFile("/Users/JurgenZellhuber/OneDrive - Laureate Mexico/ARQ. Y PROG. DE COMPUTADORAS/Space Invaders/Resources/Images/StartScreen.png");
 
     sf::Sprite start_sprite;
     start_sprite.setTexture(start_texture);
 
     sf::Texture startfont_texture;
-    startfont_texture.loadFromFile("/Users/JurgenZellhuber/OneDrive - Laureate Mexico/ARQ. Y PROG. DE COMPUTADORAS/HelloSFML/Resources/Images/Font.png");
+    startfont_texture.loadFromFile("/Users/JurgenZellhuber/OneDrive - Laureate Mexico/ARQ. Y PROG. DE COMPUTADORAS/Space Invaders/Resources/Images/Font.png");
 
 
     // Variables de blinking text
@@ -63,20 +64,20 @@ int main()
     //Variables de audio
     sf::SoundBuffer explosion_buffer;
 
-    explosion_buffer.loadFromFile("/Users/JurgenZellhuber/OneDrive - Laureate Mexico/ARQ. Y PROG. DE COMPUTADORAS/HelloSFML/Resources/Music/explosion.wav");
+    explosion_buffer.loadFromFile("/Users/JurgenZellhuber/OneDrive - Laureate Mexico/ARQ. Y PROG. DE COMPUTADORAS/Space Invaders/Resources/Music/explosion.wav");
 
     sf::Sound explosion_sound;
     explosion_sound.setBuffer(explosion_buffer);
 
 
     sf::SoundBuffer laser_buffer;
-    laser_buffer.loadFromFile("/Users/JurgenZellhuber/OneDrive - Laureate Mexico/ARQ. Y PROG. DE COMPUTADORAS/HelloSFML/Resources/Music/laser.wav");
+    laser_buffer.loadFromFile("/Users/JurgenZellhuber/OneDrive - Laureate Mexico/ARQ. Y PROG. DE COMPUTADORAS/Space Invaders/Resources/Music/laser.wav");
 
     sf::Sound laser_sound;
     laser_sound.setBuffer(laser_buffer);
 
     sf::Music music;
-    music.openFromFile("/Users/JurgenZellhuber/OneDrive - Laureate Mexico/ARQ. Y PROG. DE COMPUTADORAS/HelloSFML/Resources/Music/music.wav");
+    music.openFromFile("/Users/JurgenZellhuber/OneDrive - Laureate Mexico/ARQ. Y PROG. DE COMPUTADORAS/Space Invaders/Resources/Music/music.wav");
     music.setLoop(true);
     music.play();
     music.setVolume(30);
@@ -128,7 +129,7 @@ int main()
     //Crear ventana de control
     sf::RenderWindow control_window(sf::VideoMode(SCREEN_RESIZE * SCREEN_WIDTH, SCREEN_RESIZE * SCREEN_HEIGHT), "Space Invaders", sf::Style::Close);
     sf::Image controlicon_image;
-    controlicon_image.loadFromFile("/Users/JurgenZellhuber/OneDrive - Laureate Mexico/ARQ. Y PROG. DE COMPUTADORAS/HelloSFML/Resources/Images/icon.png");
+    controlicon_image.loadFromFile("/Users/JurgenZellhuber/OneDrive - Laureate Mexico/ARQ. Y PROG. DE COMPUTADORAS/Space Invaders/Resources/Images/icon.png");
 
     control_window.setIcon(controlicon_image.getSize().x, controlicon_image.getSize().y, controlicon_image.getPixelsPtr());
 
@@ -136,13 +137,13 @@ int main()
 
     //Cargar texturas background
     sf::Texture control_texture;
-    control_texture.loadFromFile("/Users/JurgenZellhuber/OneDrive - Laureate Mexico/ARQ. Y PROG. DE COMPUTADORAS/HelloSFML/Resources/Images/ControlScreen.png");
+    control_texture.loadFromFile("/Users/JurgenZellhuber/OneDrive - Laureate Mexico/ARQ. Y PROG. DE COMPUTADORAS/Space Invaders/Resources/Images/ControlScreen.png");
 
     sf::Sprite control_sprite;
     control_sprite.setTexture(control_texture);
 
     sf::Texture controlfont_texture;
-    controlfont_texture.loadFromFile("/Users/JurgenZellhuber/OneDrive - Laureate Mexico/ARQ. Y PROG. DE COMPUTADORAS/HelloSFML/Resources/Images/Font.png");
+    controlfont_texture.loadFromFile("/Users/JurgenZellhuber/OneDrive - Laureate Mexico/ARQ. Y PROG. DE COMPUTADORAS/Space Invaders/Resources/Images/Font.png");
 
     // Variables de blinking text
     bool showcontrol_text = true;
@@ -195,7 +196,7 @@ int main()
     sf::RenderWindow window(sf::VideoMode(SCREEN_RESIZE * SCREEN_WIDTH, SCREEN_RESIZE * SCREEN_HEIGHT), "Space Invaders", sf::Style::Close);
     //Re size de la ventana
     sf::Image icongame_image;
-    icongame_image.loadFromFile("/Users/JurgenZellhuber/OneDrive - Laureate Mexico/ARQ. Y PROG. DE COMPUTADORAS/HelloSFML/Resources/Images/icon.png");
+    icongame_image.loadFromFile("/Users/JurgenZellhuber/OneDrive - Laureate Mexico/ARQ. Y PROG. DE COMPUTADORAS/Space Invaders/Resources/Images/icon.png");
 
     window.setIcon(icongame_image.getSize().x, icongame_image.getSize().y, icongame_image.getPixelsPtr());
 
@@ -205,13 +206,13 @@ int main()
     sf::Sprite powerup_bar_sprite;
 
     sf::Texture background_texture;
-    background_texture.loadFromFile("/Users/JurgenZellhuber/OneDrive - Laureate Mexico/ARQ. Y PROG. DE COMPUTADORAS/HelloSFML/Resources/Images/Background.png");
+    background_texture.loadFromFile("/Users/JurgenZellhuber/OneDrive - Laureate Mexico/ARQ. Y PROG. DE COMPUTADORAS/Space Invaders/Resources/Images/Background.png");
 
     sf::Texture font_texture;
-    font_texture.loadFromFile("/Users/JurgenZellhuber/OneDrive - Laureate Mexico/ARQ. Y PROG. DE COMPUTADORAS/HelloSFML/Resources/Images/Font.png");
+    font_texture.loadFromFile("/Users/JurgenZellhuber/OneDrive - Laureate Mexico/ARQ. Y PROG. DE COMPUTADORAS/Space Invaders/Resources/Images/Font.png");
 
     sf::Texture powerup_bar_texture;
-    powerup_bar_texture.loadFromFile("/Users/JurgenZellhuber/OneDrive - Laureate Mexico/ARQ. Y PROG. DE COMPUTADORAS/HelloSFML/Resources/Images/PowerupBar.png");
+    powerup_bar_texture.loadFromFile("/Users/JurgenZellhuber/OneDrive - Laureate Mexico/ARQ. Y PROG. DE COMPUTADORAS/Space Invaders/Resources/Images/PowerupBar.png");
 
     EnemyManager enemy_manager;
 

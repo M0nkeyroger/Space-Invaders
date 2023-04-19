@@ -1,4 +1,4 @@
-# Install script for directory: /Users/JurgenZellhuber/Library/CloudStorage/OneDrive-LaureateMexico/ARQ. Y PROG. DE COMPUTADORAS/HelloSFML
+# Install script for directory: /Users/JurgenZellhuber/Library/CloudStorage/OneDrive-LaureateMexico/ARQ. Y PROG. DE COMPUTADORAS/Space Invaders
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/JurgenZellhuber/Library/CloudStorage/OneDrive-LaureateMexico/ARQ. Y PROG. DE COMPUTADORAS/HelloSFML/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/JurgenZellhuber/Library/CloudStorage/OneDrive-LaureateMexico/ARQ. Y PROG. DE COMPUTADORAS/Space Invaders/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

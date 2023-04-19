@@ -1,5 +1,5 @@
 //
-// Created by Jurgen Zellhuber on 13/04/23.
+// Created by Jurgen Zellhuber.
 //
 
 #include <array>
@@ -18,13 +18,13 @@ EnemyManager::EnemyManager() :
 
     reset(0);
 
-    enemy_bullet_texture.loadFromFile("/Users/JurgenZellhuber/OneDrive - Laureate Mexico/ARQ. Y PROG. DE COMPUTADORAS/HelloSFML/Resources/Images/EnemyBullet.png");
+    enemy_bullet_texture.loadFromFile("/Users/JurgenZellhuber/OneDrive - Laureate Mexico/ARQ. Y PROG. DE COMPUTADORAS/Space Invaders/Resources/Images/EnemyBullet.png");
 
     enemy_bullet_sprite.setTexture(enemy_bullet_texture);
 
     for (unsigned char a = 0; a < ENEMY_TYPES; a++)
     {
-        enemy_animations.push_back(Animation(1 + move_pause, BASE_SIZE, "/Users/JurgenZellhuber/OneDrive - Laureate Mexico/ARQ. Y PROG. DE COMPUTADORAS/HelloSFML/Resources/Images/Enemy" + std::to_string(static_cast<unsigned short>(a)) + ".png"));
+        enemy_animations.push_back(Animation(1 + move_pause, BASE_SIZE, "/Users/JurgenZellhuber/OneDrive - Laureate Mexico/ARQ. Y PROG. DE COMPUTADORAS/Space Invaders/Resources/Images/Enemy" + std::to_string(static_cast<unsigned short>(a)) + ".png"));
     }
 }
 
@@ -103,6 +103,35 @@ void EnemyManager::reset(unsigned short i_level)
 
     std::string level_sketch = "";
 
+    //Rand number generator
+    std::random_device rd;
+    std::default_random_engine gen(rd());
+
+    //Distribuccion uniforme
+    std::uniform_int_distribution<int> dist(0,2);
+
+    //Generar el nivel al azar
+    for (int i = 0; i < 4; i++)
+    {
+        for (int j = 0; j < 16; j++)
+        {
+            if (j == 0 || j == 15)
+            {
+                level_sketch += ' ';
+            }
+            else
+            {
+                // Generate a random digit from 0 to 2 and append it to the level_sketch string
+                level_sketch += std::to_string(dist(gen));
+            }
+        }
+
+        if (i != 3)
+        {
+            level_sketch += '\n';
+        }
+    }
+
     move_pause = std::max<short>(ENEMY_MOVE_PAUSE_START_MIN, ENEMY_MOVE_PAUSE_START - ENEMY_MOVE_PAUSE_DECREASE * i_level);
     move_timer = move_pause;
 
@@ -128,57 +157,58 @@ void EnemyManager::reset(unsigned short i_level)
     {
         case 0:
         {
-            level_sketch = "2011022011022011\n0011001100110011\n1100110011001100\n0 0 0 0 0 0 0 0 ";
+            //level_sketch = "2011022011022011\n0011001100110011\n1100110011001100\n0 0 0 0 0 0 0 0 ";
+            level_sketch = level_sketch;
 
             break;
         }
         case 1:
         {
-            level_sketch = "0000000000000000\n0000000000000000\n0000000000000000\n0000000000000000";
+            level_sketch = level_sketch;
 
             break;
         }
         case 2:
         {
 
-            level_sketch = "1010101010101010\n0101010101010101\n1010101010101010\n0101010101010101";
+            level_sketch = level_sketch;
 
             break;
         }
         case 3:
         {
-            level_sketch = "1111111111111111\n1111111111111111\n1111111111111111\n1111111111111111";
+            level_sketch = level_sketch;
 
             break;
         }
         case 4:
         {
 
-            level_sketch = "2222222222222222\n1111111111111111\n1010101010101010\n0101010101010101";
+            level_sketch = level_sketch;
 
             break;
         }
         case 5:
         {
 
-            level_sketch = "0000000000000000\n2222222222222222\n1111111111111111\n1111111111111111";
+            level_sketch = level_sketch;
 
             break;
         }
         case 6:
         {
 
-            level_sketch = "2121212121212121\n1212121212121212\n2121212121212121\n1212121212121212";
+            level_sketch = level_sketch;
 
             break;
         }
         case 7:
         {
-            level_sketch = "2222222222222222\n2222222222222222\n2222222222222222\n2222222222222222";
+            level_sketch = level_sketch;
         }
         case 8:
         {
-            level_sketch = "2122122122122122\n2 2 2 2 2 2 2 2 \n1211211211211211\n2222222222222222\n2222222222222222";
+            level_sketch = level_sketch;
         }
     }
 

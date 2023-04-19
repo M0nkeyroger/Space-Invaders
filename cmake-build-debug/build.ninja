@@ -8,7 +8,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: HelloSFML
+# Project: SpaceInvaders
 # Configurations: Debug
 # =============================================================================
 
@@ -36,7 +36,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /Users/JurgenZellhuber/Library/CloudStorage/OneDrive-LaureateMexico/ARQ.$ Y$ PROG.$ DE$ COMPUTADORAS/HelloSFML/cmake-build-debug/
+cmake_ninja_workdir = /Users/JurgenZellhuber/Library/CloudStorage/OneDrive-LaureateMexico/ARQ.$ Y$ PROG.$ DE$ COMPUTADORAS/Space$ Invaders/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target HelloSFML
 
@@ -46,49 +46,49 @@ cmake_ninja_workdir = /Users/JurgenZellhuber/Library/CloudStorage/OneDrive-Laure
 
 build cmake_object_order_depends_target_HelloSFML: phony || CMakeFiles/HelloSFML.dir
 
-build CMakeFiles/HelloSFML.dir/main.cpp.o: CXX_COMPILER__HelloSFML_Debug /Users/JurgenZellhuber/Library/CloudStorage/OneDrive-LaureateMexico/ARQ.$ Y$ PROG.$ DE$ COMPUTADORAS/HelloSFML/main.cpp || cmake_object_order_depends_target_HelloSFML
+build CMakeFiles/HelloSFML.dir/main.cpp.o: CXX_COMPILER__HelloSFML_Debug /Users/JurgenZellhuber/Library/CloudStorage/OneDrive-LaureateMexico/ARQ.$ Y$ PROG.$ DE$ COMPUTADORAS/Space$ Invaders/main.cpp || cmake_object_order_depends_target_HelloSFML
   DEP_FILE = CMakeFiles/HelloSFML.dir/main.cpp.o.d
   FLAGS = -std=c++11 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -fcolor-diagnostics
   INCLUDES = -isystem /usr/local/include
   OBJECT_DIR = CMakeFiles/HelloSFML.dir
   OBJECT_FILE_DIR = CMakeFiles/HelloSFML.dir
 
-build CMakeFiles/HelloSFML.dir/Animation.cpp.o: CXX_COMPILER__HelloSFML_Debug /Users/JurgenZellhuber/Library/CloudStorage/OneDrive-LaureateMexico/ARQ.$ Y$ PROG.$ DE$ COMPUTADORAS/HelloSFML/Animation.cpp || cmake_object_order_depends_target_HelloSFML
+build CMakeFiles/HelloSFML.dir/Animation.cpp.o: CXX_COMPILER__HelloSFML_Debug /Users/JurgenZellhuber/Library/CloudStorage/OneDrive-LaureateMexico/ARQ.$ Y$ PROG.$ DE$ COMPUTADORAS/Space$ Invaders/Animation.cpp || cmake_object_order_depends_target_HelloSFML
   DEP_FILE = CMakeFiles/HelloSFML.dir/Animation.cpp.o.d
   FLAGS = -std=c++11 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -fcolor-diagnostics
   INCLUDES = -isystem /usr/local/include
   OBJECT_DIR = CMakeFiles/HelloSFML.dir
   OBJECT_FILE_DIR = CMakeFiles/HelloSFML.dir
 
-build CMakeFiles/HelloSFML.dir/DrawText.cpp.o: CXX_COMPILER__HelloSFML_Debug /Users/JurgenZellhuber/Library/CloudStorage/OneDrive-LaureateMexico/ARQ.$ Y$ PROG.$ DE$ COMPUTADORAS/HelloSFML/DrawText.cpp || cmake_object_order_depends_target_HelloSFML
+build CMakeFiles/HelloSFML.dir/DrawText.cpp.o: CXX_COMPILER__HelloSFML_Debug /Users/JurgenZellhuber/Library/CloudStorage/OneDrive-LaureateMexico/ARQ.$ Y$ PROG.$ DE$ COMPUTADORAS/Space$ Invaders/DrawText.cpp || cmake_object_order_depends_target_HelloSFML
   DEP_FILE = CMakeFiles/HelloSFML.dir/DrawText.cpp.o.d
   FLAGS = -std=c++11 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -fcolor-diagnostics
   INCLUDES = -isystem /usr/local/include
   OBJECT_DIR = CMakeFiles/HelloSFML.dir
   OBJECT_FILE_DIR = CMakeFiles/HelloSFML.dir
 
-build CMakeFiles/HelloSFML.dir/Enemy.cpp.o: CXX_COMPILER__HelloSFML_Debug /Users/JurgenZellhuber/Library/CloudStorage/OneDrive-LaureateMexico/ARQ.$ Y$ PROG.$ DE$ COMPUTADORAS/HelloSFML/Enemy.cpp || cmake_object_order_depends_target_HelloSFML
+build CMakeFiles/HelloSFML.dir/Enemy.cpp.o: CXX_COMPILER__HelloSFML_Debug /Users/JurgenZellhuber/Library/CloudStorage/OneDrive-LaureateMexico/ARQ.$ Y$ PROG.$ DE$ COMPUTADORAS/Space$ Invaders/Enemy.cpp || cmake_object_order_depends_target_HelloSFML
   DEP_FILE = CMakeFiles/HelloSFML.dir/Enemy.cpp.o.d
   FLAGS = -std=c++11 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -fcolor-diagnostics
   INCLUDES = -isystem /usr/local/include
   OBJECT_DIR = CMakeFiles/HelloSFML.dir
   OBJECT_FILE_DIR = CMakeFiles/HelloSFML.dir
 
-build CMakeFiles/HelloSFML.dir/EnemyManager.cpp.o: CXX_COMPILER__HelloSFML_Debug /Users/JurgenZellhuber/Library/CloudStorage/OneDrive-LaureateMexico/ARQ.$ Y$ PROG.$ DE$ COMPUTADORAS/HelloSFML/EnemyManager.cpp || cmake_object_order_depends_target_HelloSFML
+build CMakeFiles/HelloSFML.dir/EnemyManager.cpp.o: CXX_COMPILER__HelloSFML_Debug /Users/JurgenZellhuber/Library/CloudStorage/OneDrive-LaureateMexico/ARQ.$ Y$ PROG.$ DE$ COMPUTADORAS/Space$ Invaders/EnemyManager.cpp || cmake_object_order_depends_target_HelloSFML
   DEP_FILE = CMakeFiles/HelloSFML.dir/EnemyManager.cpp.o.d
   FLAGS = -std=c++11 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -fcolor-diagnostics
   INCLUDES = -isystem /usr/local/include
   OBJECT_DIR = CMakeFiles/HelloSFML.dir
   OBJECT_FILE_DIR = CMakeFiles/HelloSFML.dir
 
-build CMakeFiles/HelloSFML.dir/Player.cpp.o: CXX_COMPILER__HelloSFML_Debug /Users/JurgenZellhuber/Library/CloudStorage/OneDrive-LaureateMexico/ARQ.$ Y$ PROG.$ DE$ COMPUTADORAS/HelloSFML/Player.cpp || cmake_object_order_depends_target_HelloSFML
+build CMakeFiles/HelloSFML.dir/Player.cpp.o: CXX_COMPILER__HelloSFML_Debug /Users/JurgenZellhuber/Library/CloudStorage/OneDrive-LaureateMexico/ARQ.$ Y$ PROG.$ DE$ COMPUTADORAS/Space$ Invaders/Player.cpp || cmake_object_order_depends_target_HelloSFML
   DEP_FILE = CMakeFiles/HelloSFML.dir/Player.cpp.o.d
   FLAGS = -std=c++11 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -fcolor-diagnostics
   INCLUDES = -isystem /usr/local/include
   OBJECT_DIR = CMakeFiles/HelloSFML.dir
   OBJECT_FILE_DIR = CMakeFiles/HelloSFML.dir
 
-build CMakeFiles/HelloSFML.dir/Ufo.cpp.o: CXX_COMPILER__HelloSFML_Debug /Users/JurgenZellhuber/Library/CloudStorage/OneDrive-LaureateMexico/ARQ.$ Y$ PROG.$ DE$ COMPUTADORAS/HelloSFML/Ufo.cpp || cmake_object_order_depends_target_HelloSFML
+build CMakeFiles/HelloSFML.dir/Ufo.cpp.o: CXX_COMPILER__HelloSFML_Debug /Users/JurgenZellhuber/Library/CloudStorage/OneDrive-LaureateMexico/ARQ.$ Y$ PROG.$ DE$ COMPUTADORAS/Space$ Invaders/Ufo.cpp || cmake_object_order_depends_target_HelloSFML
   DEP_FILE = CMakeFiles/HelloSFML.dir/Ufo.cpp.o.d
   FLAGS = -std=c++11 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -fcolor-diagnostics
   INCLUDES = -isystem /usr/local/include
@@ -117,7 +117,7 @@ build HelloSFML: CXX_EXECUTABLE_LINKER__HelloSFML_Debug CMakeFiles/HelloSFML.dir
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd "/Users/JurgenZellhuber/Library/CloudStorage/OneDrive-LaureateMexico/ARQ. Y PROG. DE COMPUTADORAS/HelloSFML/cmake-build-debug" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd "/Users/JurgenZellhuber/Library/CloudStorage/OneDrive-LaureateMexico/ARQ. Y PROG. DE COMPUTADORAS/Space Invaders/cmake-build-debug" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -128,7 +128,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd "/Users/JurgenZellhuber/Library/CloudStorage/OneDrive-LaureateMexico/ARQ. Y PROG. DE COMPUTADORAS/HelloSFML/cmake-build-debug" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S"/Users/JurgenZellhuber/Library/CloudStorage/OneDrive-LaureateMexico/ARQ. Y PROG. DE COMPUTADORAS/HelloSFML" -B"/Users/JurgenZellhuber/Library/CloudStorage/OneDrive-LaureateMexico/ARQ. Y PROG. DE COMPUTADORAS/HelloSFML/cmake-build-debug"
+  COMMAND = cd "/Users/JurgenZellhuber/Library/CloudStorage/OneDrive-LaureateMexico/ARQ. Y PROG. DE COMPUTADORAS/Space Invaders/cmake-build-debug" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S"/Users/JurgenZellhuber/Library/CloudStorage/OneDrive-LaureateMexico/ARQ. Y PROG. DE COMPUTADORAS/Space Invaders" -B"/Users/JurgenZellhuber/Library/CloudStorage/OneDrive-LaureateMexico/ARQ. Y PROG. DE COMPUTADORAS/Space Invaders/cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -144,7 +144,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /Users/JurgenZellhuber/Library/CloudStorage/OneDrive-LaureateMexico/ARQ. Y PROG. DE COMPUTADORAS/HelloSFML/cmake-build-debug
+# Folder: /Users/JurgenZellhuber/Library/CloudStorage/OneDrive-LaureateMexico/ARQ. Y PROG. DE COMPUTADORAS/Space Invaders/cmake-build-debug
 
 build all: phony HelloSFML
 
@@ -155,14 +155,14 @@ build all: phony HelloSFML
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/JurgenZellhuber/Library/CloudStorage/OneDrive-LaureateMexico/ARQ.$ Y$ PROG.$ DE$ COMPUTADORAS/HelloSFML/CMakeLists.txt /usr/local/lib/cmake/SFML/SFMLConfig.cmake /usr/local/lib/cmake/SFML/SFMLConfigDependencies.cmake /usr/local/lib/cmake/SFML/SFMLConfigVersion.cmake /usr/local/lib/cmake/SFML/SFMLSharedTargets-release.cmake /usr/local/lib/cmake/SFML/SFMLSharedTargets.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/JurgenZellhuber/Library/CloudStorage/OneDrive-LaureateMexico/ARQ.$ Y$ PROG.$ DE$ COMPUTADORAS/Space$ Invaders/CMakeLists.txt /usr/local/lib/cmake/SFML/SFMLConfig.cmake /usr/local/lib/cmake/SFML/SFMLConfigDependencies.cmake /usr/local/lib/cmake/SFML/SFMLConfigVersion.cmake /usr/local/lib/cmake/SFML/SFMLSharedTargets-release.cmake /usr/local/lib/cmake/SFML/SFMLSharedTargets.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/JurgenZellhuber/Library/CloudStorage/OneDrive-LaureateMexico/ARQ.$ Y$ PROG.$ DE$ COMPUTADORAS/HelloSFML/CMakeLists.txt /usr/local/lib/cmake/SFML/SFMLConfig.cmake /usr/local/lib/cmake/SFML/SFMLConfigDependencies.cmake /usr/local/lib/cmake/SFML/SFMLConfigVersion.cmake /usr/local/lib/cmake/SFML/SFMLSharedTargets-release.cmake /usr/local/lib/cmake/SFML/SFMLSharedTargets.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
+build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/JurgenZellhuber/Library/CloudStorage/OneDrive-LaureateMexico/ARQ.$ Y$ PROG.$ DE$ COMPUTADORAS/Space$ Invaders/CMakeLists.txt /usr/local/lib/cmake/SFML/SFMLConfig.cmake /usr/local/lib/cmake/SFML/SFMLConfigDependencies.cmake /usr/local/lib/cmake/SFML/SFMLConfigVersion.cmake /usr/local/lib/cmake/SFML/SFMLSharedTargets-release.cmake /usr/local/lib/cmake/SFML/SFMLSharedTargets.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
 
 
 #############################################
