@@ -17,16 +17,16 @@
 
 
 Player::Player() :
-        explosion(EXPLOSION_ANIMATION_SPEED, BASE_SIZE, "/Users/JurgenZellhuber/OneDrive - Laureate Mexico/ARQ. Y PROG. DE COMPUTADORAS/Space Invaders/Resources/Images/Explosion.png")
+        explosion(EXPLOSION_ANIMATION_SPEED, BASE_SIZE, "../Resources/Images/Explosion.png")
 {
     reset();
 
-    bullet_texture.loadFromFile("/Users/JurgenZellhuber/OneDrive - Laureate Mexico/ARQ. Y PROG. DE COMPUTADORAS/Space Invaders/Resources/Images/PlayerBullet.png");
-    texture.loadFromFile("/Users/JurgenZellhuber/OneDrive - Laureate Mexico/ARQ. Y PROG. DE COMPUTADORAS/Space Invaders/Resources/Images/Player.png");
+    bullet_texture.loadFromFile("../Resources/Images/PlayerBullet.png");
+    texture.loadFromFile("../Resources/Images/Player.png");
     bullet_sprite.setTexture(bullet_texture);
     sprite.setTexture(texture);
-    shooting_sound_buffer.loadFromFile("/Users/JurgenZellhuber/OneDrive - Laureate Mexico/ARQ. Y PROG. DE COMPUTADORAS/Space Invaders/Resources/Music/laser.wav");
-    dying_sound_buffer.loadFromFile("/Users/JurgenZellhuber/OneDrive - Laureate Mexico/ARQ. Y PROG. DE COMPUTADORAS/Space Invaders/Resources/Music/explosion.wav");
+    shooting_sound_buffer.loadFromFile("../Resources/Music/laser.wav");
+    dying_sound_buffer.loadFromFile("../Resources/Music/explosion.wav");
     shooting_sound.setBuffer(shooting_sound_buffer);
     dying_sound.setBuffer(dying_sound_buffer);
 }

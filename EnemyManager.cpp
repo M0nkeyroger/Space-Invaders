@@ -18,13 +18,13 @@ EnemyManager::EnemyManager() :
 
     reset(0);
 
-    enemy_bullet_texture.loadFromFile("/Users/JurgenZellhuber/OneDrive - Laureate Mexico/ARQ. Y PROG. DE COMPUTADORAS/Space Invaders/Resources/Images/EnemyBullet.png");
+    enemy_bullet_texture.loadFromFile("../Resources/Images/EnemyBullet.png");
 
     enemy_bullet_sprite.setTexture(enemy_bullet_texture);
 
     for (unsigned char a = 0; a < ENEMY_TYPES; a++)
     {
-        enemy_animations.push_back(Animation(1 + move_pause, BASE_SIZE, "/Users/JurgenZellhuber/OneDrive - Laureate Mexico/ARQ. Y PROG. DE COMPUTADORAS/Space Invaders/Resources/Images/Enemy" + std::to_string(static_cast<unsigned short>(a)) + ".png"));
+        enemy_animations.push_back(Animation(1 + move_pause, BASE_SIZE, "../Resources/Images/Enemy" + std::to_string(static_cast<unsigned short>(a)) + ".png"));
     }
 }
 

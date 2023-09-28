@@ -14,14 +14,14 @@ Ufo::Ufo(std::mt19937_64& i_random_engine) :
         y(BASE_SIZE),
         powerup_distribution(0, POWERUP_TYPES - 1),
         timer_distribution(UFO_TIMER_MIN, UFO_TIMER_MAX),
-        animation(UFO_ANIMATION_SPEED, 2 * BASE_SIZE, "/Users/JurgenZellhuber/OneDrive - Laureate Mexico/ARQ. Y PROG. DE COMPUTADORAS/Space Invaders/Resources/Images/Ufo.png"),
-        explosion(EXPLOSION_ANIMATION_SPEED, 2 * BASE_SIZE, "/Users/JurgenZellhuber/OneDrive - Laureate Mexico/ARQ. Y PROG. DE COMPUTADORAS/Space Invaders/Resources/Images/ExplosionBig.png")
+        animation(UFO_ANIMATION_SPEED, 2 * BASE_SIZE, "../Resources/Images/Ufo.png"),
+        explosion(EXPLOSION_ANIMATION_SPEED, 2 * BASE_SIZE, "../Resources/Images/ExplosionBig.png")
 {
     reset(1, i_random_engine);
 
     for (unsigned char a = 0; a < POWERUP_TYPES; a++)
     {
-        powerup_animations.push_back(Animation(POWERUP_ANIMATION_SPEED, BASE_SIZE, "/Users/JurgenZellhuber/OneDrive - Laureate Mexico/ARQ. Y PROG. DE COMPUTADORAS/Space Invaders/Resources/Images/Powerup" + std::to_string(static_cast<unsigned short>(a)) + ".png"));
+        powerup_animations.push_back(Animation(POWERUP_ANIMATION_SPEED, BASE_SIZE, "../Resources/Images/Powerup" + std::to_string(static_cast<unsigned short>(a)) + ".png"));
     }
 }
 
